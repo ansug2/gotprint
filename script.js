@@ -108,8 +108,6 @@ $(document).on('mouseup', function(evt) {
 		
 		var canvas2 = parseInt(canvasId.replace('myCanvas',''));
 		canvas2 = canvas[canvas2];
-		console.log(canvas1);
-		console.log(canvas2);
 		var posX = evt.clientX;
 		var posY = evt.clientY;
 		canvasWidth = canvas1.width;
