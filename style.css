@@ -1,0 +1,29 @@
+*{margin:0; padding:0;}
+.wrapper{
+	max-width:900px;
+	margin:0 auto;
+	border:1px solid #eaeaea;
+	box-shadow: 0px 0px 5px #ccc;
+	overflow:hidden;
+}
+.innerContainer{
+	display:block;
+	margin: 10px auto;
+	overflow:hidden;
+}
+.innerContainer select, .innerContainer button{
+	margin: 10px auto;
+	display:block;
+	padding:10px;
+}
+.canvas-container{
+	border:1px solid #000;
+	margin:10px;
+	float:left;
+}
+button{
+	padding:10px;
+	border:1px solid #eaeaea;
+	box-shadow: 0px 0px 2px #ccc;
+	cursor:pointer;
+}

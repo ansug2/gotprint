@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Canvas</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/1.7.13/fabric.js"></script>
+		<script src="script.js"></script>
+
+    </head>
+    <body>
+		<div class="wrapper">
+			<div class="innerContainer">
+				<select id="counter">
+					<option value="0">Select a number</option>
+				</select>
+				<button class="generateCanvas">Generate Canvas</button>
+			</div>
+			<div class="innerContainer">
+				<div class="canvasContainer">
+				</div>
+			</div>
+			<div class="innerContainer">
+				<select id="canvasList">
+					<option value='0'>Select a Canvas to Draw</option>
+				</select>
+				<select id="shapeList">
+					<option value="0">Select a shape</option>
+					<option value="1">Circle</option>
+					<option value="2">Square</option>
+					<option value="3">Rectangle</option>
+				</select>
+				<button class="insertShape">Insert Shape</button>
+			</div>
+		</div>       
+    </body>
+</html>
